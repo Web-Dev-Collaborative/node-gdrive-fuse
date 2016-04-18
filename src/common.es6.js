@@ -25,8 +25,8 @@ var maxCache;
 if(config.maxCacheSize){
    maxCache =  config.maxCacheSize * 1024 * 1024;
 }else{
-  logger.info( "max cache size was not set. you should exit and manually set it");
-  logger.info( "defaulting to a 10 GB cache");
+//  logger.info( "max cache size was not set. you should exit and manually set it");
+//  logger.info( "defaulting to a 10 GB cache");
    maxCache = 10737418240;
 }
 
